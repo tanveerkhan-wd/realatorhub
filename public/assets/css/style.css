@@ -1,0 +1,68 @@
+@font-face { font-family: 'ailb'; src: url('../fonts/Aileron-Bold.otf'); }
+@font-face { font-family: 'aill'; src: url('../fonts/Aileron-Light.otf'); }
+@font-face { font-family: 'ailr'; src: url('../fonts/Aileron-Regular.otf'); }
+@font-face { font-family: 'ailsb'; src: url('../fonts/Aileron-SemiBold.otf'); }
+@font-face { font-family: 'Didot'; src: url('../fonts/Didot_Regular.ttf'); }
+@font-face { font-family: 'Karla'; src: url('../fonts/Karla-Regular.ttf'); }
+@font-face { font-family: 'Lato'; src: url('../fonts/Lato-Regular.ttf'); }
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-Regular.ttf'); }
+@font-face { font-family: 'Poppins'; src: url('../fonts/Poppins-Regular.ttf'); }
+@font-face { font-family: 'Raleway'; src: url('../fonts/Raleway-Regular.ttf'); }
+@font-face { font-family: 'OpenSans'; src: url('../fonts/OpenSans-Regular.ttf'); }
+@font-face { font-family: 'OpenSansBold'; src: url('../fonts/OpenSans-Semibold.ttf'); }
+@font-face { font-family: 'Chivo'; src: url('../fonts/chivo.regular.ttf'); }
+@font-face { font-family: 'ChivoBold'; src: url('../fonts/chivo.bold.ttf'); }
+body {
+   font-family: OpenSans, sans-serif;
+}
+.font-color, body, a, a:hover{
+    color:#181818;
+}
+.header-bg{
+	background-color: #fff;
+}
+.header-text, .header-text a, li.dropdown.profile_drop_div button{
+    color: #181818 !important;
+}
+.header-hover-text a:hover, .header-hover-text a.active{
+    color:#4e43fc !important;
+}
+.header-hover-text a.hvr-underline-from-left:before{
+    background-color:#4e43fc !important;
+}
+
+.btn-color, h1.auth_title:after,.theme_tab li a.nav-link.active, .theme_tab li a.nav-link:hover,
+.bed_box ul li input[type=checkbox]:checked+span, .step_tab li.active, .step_tab li:hover,.step_tab li.active:after {
+    background-color: #4e43fc;
+}
+.bottom-link a,  p.btn-color-title, .btn-color-title, .loader svg, .auth_link a, .main_header a.nav-link.active, .main_header a.nav-link:hover,
+.bottom-info svg, .map_pro_detail svg, p.bed_bath span svg{
+	color: #4e43fc;
+}
+.btn-text, .theme_tab li a.nav-link.active, .theme_tab li a.nav-link:hover, a.theme-btn:hover,
+ .bed_box ul li input[type=checkbox]:checked+span, .step_tab li.active a, .step_tab li:hover a{
+    color: #fff;
+}
+.btn-size {font-size: 16px;}
+.menu-bg {
+    background-color: #fff;
+}
+.menu-text, .menu-text a {
+    color: #000;
+    transition: 0.4s linear;
+}
+.menu-hover-text a:hover {
+    color: #4e43fc !important;
+}
+.footer-bg{
+	background-color: #fff;
+}
+.footer-text, .footer-text a{
+	color: #979797;
+}
+.footer-hover-text a:hover, .footer-hover-text a.active{
+    color: #4e43fc;
+}
+.form-bg{
+    background-color: #f6f6f6;
+}

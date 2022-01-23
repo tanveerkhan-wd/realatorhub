@@ -1,0 +1,6 @@
+.header-bg{
+	background-color: #000;
+}
+.header-text, li.dropdown.profile_drop_div button, .navbar-toggle{
+    color: #fff !important;
+}
